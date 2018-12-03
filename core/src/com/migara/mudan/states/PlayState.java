@@ -28,13 +28,14 @@ public class PlayState extends State{
     private Texture background;
     private Table table;
 
-    private Set<Table> m_unsolvableStates = new HashSet<>();
-    private Map<Table, PriorityNode> m_visitedStates = new HashMap<>();
+    private Set<Long> m_unsolvableStates = new HashSet<>();
+    private Map<Long, PriorityNode> m_visitedStates = new HashMap<>();
     private LinkedList<Move> m_moves = new LinkedList<>();
     int[][] hamleler = new int[][]{{-2, 0}, {2, 0}, {0, -2}, {0, 2}};
     public int oynanabilecekHamleSayısı = 0;
     long m_timeTaken  = 0;
     boolean a = true;
+    boolean bittimi = false;
 
     public PlayState(GameStateManager gsm) {
         super(gsm);
@@ -46,12 +47,14 @@ public class PlayState extends State{
 
     @Override
     protected void handleInput() {
-        if (Gdx.input.isKeyJustPressed(Input.Keys.E)){
-
-        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.E)){ }
         if (a){
             dfs();
             a = false;
+        }
+        if (bittimi){
+            Gdx.app.log("time to compleate : " + m_timeTaken, "");
+            bittimi = false;
         }
     }
 
@@ -70,10 +73,8 @@ public class PlayState extends State{
             for(int i = 0; i<4; i++)
                 deltaOrder.add(idx++);
 
-            if(true) {
-                Collections.shuffle(iterOrder);
-                Collections.shuffle(deltaOrder);
-            }
+            Collections.shuffle(iterOrder);
+            Collections.shuffle(deltaOrder);
 
             for(int x: iterOrder)
                 for(int y: iterOrder) {
@@ -85,30 +86,28 @@ public class PlayState extends State{
                             int dy = delta[1];
                             if(validMove(x, y, dx, dy)) {
                                 table.move(x, y, dx, dy);
-//                                Long boardCfg = m_board.bitMap();
-//
-//                                List<Integer> pagodas = Pagoda.evaluatePagodas(table);
-//                                if((pagodas.get(0) < 0 || pagodas.get(4) < 1)) {
-//                                    //	devam
-//                                }
-//                                else
-//                                if(!m_unsolvableStates.contains(table)) {
-//                                    oynanabilecekHamleSayısı++;
+                                Long boardCfg = table.bitMap();
 
-                                    if(dfs()) {
+                                List<Integer> pagodas = Pagoda.evaluatePagodas(table);
+                                if((pagodas.get(0) < 0 || pagodas.get(4) < 1)) {
+                                    //	devam
+                                }
+                                else if(!m_unsolvableStates.contains(boardCfg)) {
+                                    oynanabilecekHamleSayısı++;
+
+                                    if (dfs()) {
                                         m_moves.push(new Move(x, y, x + dx, y + dy));
+                                        bittimi = true;
                                         return true;
                                     }
-//                                table.restore(x, y, dx, dy);
+                                }
+                                m_unsolvableStates.addAll(table.getSymmetricConfigs());
+                                table.restore(x, y, dx, dy);
                             }
-//                                m_unsolvableStates.addAll(table.getSymmetricConfigs());
                         }
                     }
                 }
-//        }catch (InterruptedException e){
-
-        }
-        finally {
+        } finally {
             this.m_timeTaken = System.currentTimeMillis() - startTime;
         }
         return isGoalState(table);
