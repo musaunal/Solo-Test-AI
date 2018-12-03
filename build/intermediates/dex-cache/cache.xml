@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\musa\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.6\57c2831c870743712b808384187ea856e541878f\gdx-backend-android-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2831c870743712b808384187ea856e541878f">
+        <dex dex="C:\Users\musa\Desktop\Mudan\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.6_d3e11db70e4f4316df95843d4f86afb8c7a8d97d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\musa\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.6\c249ef4060a4fada952f278455c8f7b9cba3c18a\gdx-box2d-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c249ef4060a4fada952f278455c8f7b9cba3c18a">
+        <dex dex="C:\Users\musa\Desktop\Mudan\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.6_4d3f3a242eded7e4a2292c40342eb71a0493efb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\musa\Desktop\Mudan\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f796dafcdbfc2a10b998a9b1efae7b1f56efbd2">
+        <dex dex="C:\Users\musa\Desktop\Mudan\android\build\intermediates\pre-dexed\debug\core-1.0_8ffa2e0bbbab7b95bb44680e6c185fa04cfe3e4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\musa\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.6\47d1e9b890e364ec28f128e9bb3b9a12a94c164\gdx-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="047d1e9b890e364ec28f128e9bb3b9a12a94c164">
+        <dex dex="C:\Users\musa\Desktop\Mudan\android\build\intermediates\pre-dexed\debug\gdx-1.9.6_63680e53b5d3c54d2205570ca0a5b3cf24b59c31.jar" />
+    </item>
+
+</items>

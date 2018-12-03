@@ -1,0 +1,4 @@
+#Sat Jul 22 15:53:42 AST 2017
+base.0=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

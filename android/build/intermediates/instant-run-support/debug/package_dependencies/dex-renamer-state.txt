@@ -1,0 +1,10 @@
+#Sat Jul 22 15:53:42 AST 2017
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes2.dex
+base.2=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-1.9.6_63680e53b5d3c54d2205570ca0a5b3cf24b59c31
+base.1=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-box2d-1.9.6_4d3f3a242eded7e4a2292c40342eb71a0493efb7
+base.0=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-backend-android-1.9.6_d3e11db70e4f4316df95843d4f86afb8c7a8d97d
+file.2=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-1.9.6_63680e53b5d3c54d2205570ca0a5b3cf24b59c31\\classes.dex
+file.1=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-box2d-1.9.6_4d3f3a242eded7e4a2292c40342eb71a0493efb7\\classes.dex
+file.0=C\:\\Users\\musa\\Desktop\\Mudan\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-backend-android-1.9.6_d3e11db70e4f4316df95843d4f86afb8c7a8d97d\\classes.dex
