@@ -24,7 +24,7 @@ public class MudanDemo extends ApplicationAdapter {
 		music = Gdx.audio.newMusic(Gdx.files.internal("music.mp3"));
 		music.setLooping(true);
 		music.setVolume(0.1f);
-		music.play();
+//		music.play();
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		gsm.push(new MenuState(gsm));
 	}

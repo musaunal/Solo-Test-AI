@@ -1,17 +1,16 @@
 package com.migara.mudan.sprites;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.utils.Array;
 
 public class Table extends Sprite {
 
-    private int length;
-    private delik[][] table;
+    public int length;
+    public delik[][] table;
     private Texture hole;
-    public Array<Stone> stones;
+    private Texture tas;
 
     public enum delik{
         BOS(0), DOLU(0), HARITA_DISI(1);
@@ -25,9 +24,9 @@ public class Table extends Sprite {
     public Table(int length){
         this.length = length;
         table = new delik[length][length];
-        stones = new Array<Stone>();
         constructTable();
         hole = new Texture("delik.png");
+        tas = new Texture("stone.png");
     }
 
     public void constructTable(){       //English
@@ -58,23 +57,47 @@ public class Table extends Sprite {
             table[i][5] = delik.HARITA_DISI;
             table[i][6] = delik.HARITA_DISI;
         }
+    }
 
-        int id=0;
-        for (int i = 0; i < 7; i++) {
-            for (int j = 0; j < 7; j++) {
-                if (table[i][j] == delik.DOLU){
-                    stones.add(new Stone(new Vector2(i,j),id));
-                    id++;
-                }
-            }
-        }
+    public void move(int x, int y, int dx, int dy) {
+        Gdx.app.log("move : "+ x +" "+ y +" "+ dx +" "+ dy, "");
+        table[x][y] = delik.BOS;
+        table[x + dx/2][y + dy/2] = delik.BOS;
+        table[x + dx][y + dy] = delik.DOLU;
+    }
+
+    public void restore(int x, int y, int dx, int dy) {
+        Gdx.app.log("restore : "+ x +" "+ y +" "+ dx +" "+ dy, "");
+        table[x + dx][y + dy] = delik.BOS;
+        table[x + dx/2][y + dy/2] = delik.DOLU;
+        table[x][y] = delik.DOLU;
+    }
+
+//    public long bitMap() {
+//        long bitMap = 0;
+//        for(int i = 0; i < 7; i++) {
+//            for(int j = 0; j < 7; j++) {
+//                bitMap |= table[i][j].bit();
+//                if( j != 7 - 1 || i != 7 - 1) bitMap <<= 1;
+//            }
+//        }
+//        return bitMap;
+//    }
+
+    public boolean invalidPos(int stepx, int stepy) {
+        return (stepx < 0 || stepx >= 7|| stepy < 0 || stepy >= 7)
+                || ((stepx < 2 && stepy < 2) || (stepx < 2 && stepy > 4)
+                ||(stepx > 4 && stepy < 2) || (stepx > 4 && stepy > 4));
     }
 
     @Override
     public void draw(Batch batch) {
         for (int i = 0; i < 7; i++)
-            for (int j = 0; j < 7; j++)
+            for (int j = 0; j < 7; j++){
                 if (table[i][j] == delik.BOS)
                     batch.draw(hole, 15+i*30 , 75+j*30,30,30);
+                if(table[i][j] == delik.DOLU)
+                    batch.draw(tas, 15+i*30 , 75+j*30,30,30);
+            }
     }
 }
