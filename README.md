@@ -1,5 +1,2 @@
-A different version of Flappy Bird game
-
-this project based on a project of BrentAureli   : https://github.com/BrentAureli/FlappyDemo
-
-And my implementations on it
+# Solo-Test-AI
+Solo Test(Peg Solitaire) Game AI with Backtracking and symmetrical pruning
