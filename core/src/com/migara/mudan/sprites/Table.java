@@ -153,4 +153,9 @@ public class Table extends Sprite {
                     batch.draw(tas, 15+i*30 , 75+j*30,30,30);
             }
     }
+
+    public void dispose(){
+        hole.dispose();
+        tas.dispose();
+    }
 }

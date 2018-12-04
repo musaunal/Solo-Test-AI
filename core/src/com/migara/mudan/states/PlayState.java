@@ -19,6 +19,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import javax.xml.transform.Result;
+
 /**
  * Created by musa on 13.05.2017.
  */
@@ -43,13 +45,13 @@ public class PlayState extends State{
         background = new Texture("background.png");
         table = new Table(7);
         Gdx.app.log("Başladı", "");
+        new Thread(this::dfs).start();          // threadin içine atar bu şekilde render methodunu engellemez
     }
 
     @Override
     protected void handleInput() {
         if (Gdx.input.isKeyJustPressed(Input.Keys.E)){ }
         if (a){
-            dfs();
             a = false;
         }
         if (bittimi){
@@ -161,5 +163,6 @@ public class PlayState extends State{
     @Override
     public void dispose() {
         background.dispose();
+        table.dispose();
     }
 }
