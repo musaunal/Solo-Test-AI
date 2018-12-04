@@ -6,20 +6,14 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.migara.mudan.MudanDemo;
 import com.migara.mudan.sprites.Move;
-import com.migara.mudan.sprites.Pagoda;
-import com.migara.mudan.sprites.PriorityNode;
 import com.migara.mudan.sprites.Table;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
-
-import javax.xml.transform.Result;
 
 /**
  * Created by musa on 13.05.2017.
@@ -28,14 +22,13 @@ import javax.xml.transform.Result;
 public class PlayState extends State{
 
     private Texture background;
+    private Texture playBtn;
     private Table table;
 
     private Set<Long> m_unsolvableStates = new HashSet<>();
-    private Map<Long, PriorityNode> m_visitedStates = new HashMap<>();
     private LinkedList<Move> m_moves = new LinkedList<>();
     int[][] hamleler = new int[][]{{-2, 0}, {2, 0}, {0, -2}, {0, 2}};
-    public int oynanabilecekHamleSayısı = 0;
-    long m_timeTaken  = 0;
+    long geçen_Süre = 0;
     boolean a = true;
     boolean bittimi = false;
 
@@ -52,10 +45,12 @@ public class PlayState extends State{
     protected void handleInput() {
         if (Gdx.input.isKeyJustPressed(Input.Keys.E)){ }
         if (a){
+
             a = false;
         }
         if (bittimi){
-            Gdx.app.log("time to compleate : " + m_timeTaken, "");
+            Gdx.app.log("" , "" + m_moves.toString());
+            Gdx.app.log("time to compleate : " + geçen_Süre, "");
             bittimi = false;
         }
     }
@@ -63,7 +58,6 @@ public class PlayState extends State{
     boolean dfs() {
         long startTime = System.currentTimeMillis();
         try {
-            int pegCount = 0;
 
             List<Integer> iterOrder = new ArrayList<>(7);
             List<Integer> deltaOrder = new ArrayList<>(4); //new int[4];
@@ -81,7 +75,6 @@ public class PlayState extends State{
             for(int x: iterOrder)
                 for(int y: iterOrder) {
                     if(this.table.table[x][y] == Table.delik.DOLU) {
-                        pegCount++;
                         for(int index: deltaOrder) {
                             int[] delta = hamleler[index];
                             int dx = delta[0];
@@ -90,13 +83,7 @@ public class PlayState extends State{
                                 table.move(x, y, dx, dy);
                                 Long boardCfg = table.bitMap();
 
-                                List<Integer> pagodas = Pagoda.evaluatePagodas(table);
-                                if((pagodas.get(0) < 0 || pagodas.get(4) < 1)) {
-                                    //	devam
-                                }
-                                else if(!m_unsolvableStates.contains(boardCfg)) {
-                                    oynanabilecekHamleSayısı++;
-
+                                if(!m_unsolvableStates.contains(boardCfg)) {
                                     if (dfs()) {
                                         m_moves.push(new Move(x, y, x + dx, y + dy));
                                         bittimi = true;
@@ -110,7 +97,7 @@ public class PlayState extends State{
                     }
                 }
         } finally {
-            this.m_timeTaken = System.currentTimeMillis() - startTime;
+            this.geçen_Süre = System.currentTimeMillis() - startTime;
         }
         return isGoalState(table);
     }

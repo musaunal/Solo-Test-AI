@@ -16,34 +16,13 @@ public class Move {
         this.m_toy = toy;
     }
 
-    int fromx() {
-        return m_fromx;
+    @Override
+    public String toString() {
+        return "Move{" +
+                "m_fromx=" + m_fromx +
+                ", m_fromy=" + m_fromy +
+                ", m_tox=" + m_tox +
+                ", m_toy=" + m_toy +
+                "}\n";
     }
-
-    int fromy() {
-        return m_fromy;
-    }
-
-    int tox() {
-        return m_tox;
-    }
-
-    int toy() {
-        return m_toy;
-    }
-
-    int dx() {
-        return m_tox - m_fromx;
-    }
-
-    int dy() {
-        return m_toy - m_fromy;
-    }
-
-    public void printMove() {
-        System.out.println(this.toString());
-        //	System.out.printf("Move (%d, %d) to (%d, %d)%n", m_fromx, m_fromy, m_tox, m_toy);
-    }
-
-
 }

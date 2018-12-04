@@ -81,7 +81,7 @@ public class Table extends Sprite {
         table[x][y] = delik.DOLU;
     }
 
-    public long bitMap() {
+    public long bitMap() {          //
         long bitMap = 0;
         for(int i = 0; i < 7; i++) {
             for(int j = 0; j < 7; j++) {

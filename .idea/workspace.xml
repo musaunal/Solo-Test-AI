@@ -7,8 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b249c66c-b117-4996-82d5-2d45359c08a0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/HalbertPenguin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/IceBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/PriorityNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/sprites/PriorityNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/states/PlayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/migara/mudan/states/PlayState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/HalbertPenguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/IceBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,38 +47,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayState.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayState.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#PlayState#0" />
                 <element signature="method#isGoalState#0;class#PlayState#0" />
                 <element signature="method#validMove#0;class#PlayState#0" />
-                <element signature="e#4588#4667#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="MenuState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/MenuState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="18">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java">
+      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -70,8 +83,8 @@
       <file leaf-file-name="Move.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,16 +95,13 @@
       <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="-18">
+              <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
               <folding>
-                <element signature="class#delik#0;class#Table#0" />
-                <element signature="method#bit#0;class#delik#0;class#Table#0" />
                 <element signature="method#Table#0;class#Table#0" />
                 <element signature="method#constructTable#0;class#Table#0" />
                 <element signature="method#move#0;class#Table#0" />
                 <element signature="method#restore#0;class#Table#0" />
-                <element signature="method#bitMap#0;class#Table#0" />
                 <element signature="method#invalidPos#0;class#Table#0" />
                 <element signature="method#getRotateConfigs#0;class#Table#0" />
                 <element signature="method#rotate#0;class#Table#0" />
@@ -2666,11 +2676,11 @@
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/MudanDemo.java" />
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Heuristics.java" />
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Pagoda.java" />
-        <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java" />
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java" />
+        <option value="$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java" />
         <option value="$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -2682,18 +2692,53 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Solo Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Solo Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Solo Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Solo Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Solo Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="mudan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Solo Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="mudan" type="462c0819:PsiDirectoryNode" />
+              <item name="sprites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Solo Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="mudan" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2873,7 +2918,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41311476" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4409836" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26065573" />
       <window_info anchor="bottom" id="Logcat" order="7" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
@@ -2894,6 +2939,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41311476" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Captures" order="6" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22665602" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26065573" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.20327869" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2904,15 +2980,122 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="method#Table#0;class#Table#0" />
+            <element signature="method#constructTable#0;class#Table#0" />
+            <element signature="method#move#0;class#Table#0" />
+            <element signature="method#restore#0;class#Table#0" />
+            <element signature="method#invalidPos#0;class#Table#0" />
+            <element signature="method#getRotateConfigs#0;class#Table#0" />
+            <element signature="method#rotate#0;class#Table#0" />
+            <element signature="method#verticalReflect#0;class#Table#0" />
+            <element signature="method#getSymmetricConfigs#0;class#Table#0" />
+            <element signature="method#draw#0;class#Table#0" />
+            <element signature="method#dispose#0;class#Table#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#PlayState#0" />
+            <element signature="method#isGoalState#0;class#PlayState#0" />
+            <element signature="method#validMove#0;class#PlayState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="method#Table#0;class#Table#0" />
+            <element signature="method#constructTable#0;class#Table#0" />
+            <element signature="method#move#0;class#Table#0" />
+            <element signature="method#restore#0;class#Table#0" />
+            <element signature="method#invalidPos#0;class#Table#0" />
+            <element signature="method#getRotateConfigs#0;class#Table#0" />
+            <element signature="method#rotate#0;class#Table#0" />
+            <element signature="method#verticalReflect#0;class#Table#0" />
+            <element signature="method#getSymmetricConfigs#0;class#Table#0" />
+            <element signature="method#draw#0;class#Table#0" />
+            <element signature="method#dispose#0;class#Table#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1998">
           <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlayState#0" />
             <element signature="method#isGoalState#0;class#PlayState#0" />
             <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
           </folding>
         </state>
       </provider>
@@ -2942,13 +3125,10 @@
         <state relative-caret-position="1206">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -2965,10 +3145,10 @@
         <state relative-caret-position="1692">
           <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlayState#0" />
             <element signature="method#isGoalState#0;class#PlayState#0" />
             <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
           </folding>
         </state>
       </provider>
@@ -2998,13 +3178,10 @@
         <state relative-caret-position="1206">
           <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -3021,10 +3198,10 @@
         <state relative-caret-position="1044">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlayState#0" />
             <element signature="method#isGoalState#0;class#PlayState#0" />
             <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
           </folding>
         </state>
       </provider>
@@ -3034,13 +3211,10 @@
         <state relative-caret-position="792">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -3078,10 +3252,10 @@
         <state relative-caret-position="900">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlayState#0" />
             <element signature="method#isGoalState#0;class#PlayState#0" />
             <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
           </folding>
         </state>
       </provider>
@@ -3091,13 +3265,10 @@
         <state relative-caret-position="792">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -3135,10 +3306,10 @@
         <state relative-caret-position="504">
           <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PlayState#0" />
             <element signature="method#isGoalState#0;class#PlayState#0" />
             <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
           </folding>
         </state>
       </provider>
@@ -3148,13 +3319,10 @@
         <state relative-caret-position="1062">
           <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -3208,13 +3376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/IceBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/IceBlock.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Particle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -3222,13 +3384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/HalbertPenguin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/HalbertPenguin.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Penguin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -3277,45 +3433,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/MenuState.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/PriorityNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="90">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/MenuState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="-18">
+          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
           <folding>
-            <element signature="class#delik#0;class#Table#0" />
-            <element signature="method#bit#0;class#delik#0;class#Table#0" />
             <element signature="method#Table#0;class#Table#0" />
             <element signature="method#constructTable#0;class#Table#0" />
             <element signature="method#move#0;class#Table#0" />
             <element signature="method#restore#0;class#Table#0" />
-            <element signature="method#bitMap#0;class#Table#0" />
             <element signature="method#invalidPos#0;class#Table#0" />
             <element signature="method#getRotateConfigs#0;class#Table#0" />
             <element signature="method#rotate#0;class#Table#0" />
@@ -3327,23 +3477,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/sprites/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="288">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="docComment;class#PlayState#0" />
-            <element signature="method#isGoalState#0;class#PlayState#0" />
-            <element signature="method#validMove#0;class#PlayState#0" />
-            <element signature="e#4588#4667#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state>
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/migara/mudan/states/PlayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#PlayState#0" />
+            <element signature="method#isGoalState#0;class#PlayState#0" />
+            <element signature="method#validMove#0;class#PlayState#0" />
+          </folding>
         </state>
       </provider>
     </entry>
